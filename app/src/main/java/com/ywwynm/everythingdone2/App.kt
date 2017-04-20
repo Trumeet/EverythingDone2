@@ -8,16 +8,16 @@ import android.app.Application
  */
 class App : Application() {
 
-    init {
-        app = this
-    }
+  init {
+    app = this
+  }
 
-    companion object {
-        lateinit var app : App
-    }
+  companion object {
+    lateinit var app: App
+  }
 
-    override fun onCreate() {
-        super.onCreate()
-    }
+  override fun onCreate() {
+    super.onCreate()
+  }
 
 }
